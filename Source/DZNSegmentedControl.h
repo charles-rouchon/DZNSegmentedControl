@@ -26,7 +26,7 @@
 /** Returns the number of segments the receiver has. */
 @property (nonatomic, readonly) NSUInteger numberOfSegments;
 /** The height of the control. Default is 56px. */
-@property (nonatomic, readonly) CGFloat height;
+@property (nonatomic, readwrite) CGFloat height;
 /** The height of the selection indicator. Default is 2px . */
 @property (nonatomic, readwrite) CGFloat selectionIndicatorHeight UI_APPEARANCE_SELECTOR;
 /** The duration of the indicator's animation. Default is 0.2 sec. */
