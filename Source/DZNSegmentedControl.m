@@ -94,8 +94,8 @@
         UIButton *button = [[self buttons] objectAtIndex:i];
         [button setFrame:CGRectMake(roundf(self.bounds.size.width/self.numberOfSegments)*i, 0, roundf(self.bounds.size.width/self.numberOfSegments), self.bounds.size.height)];
         
-        CGFloat topInset = (_barPosition > UIBarPositionBottom) ? -4.0 : 4.0;
-        [button setTitleEdgeInsets:UIEdgeInsetsMake(0, 0, topInset, 0)];
+//        CGFloat topInset = (_barPosition > UIBarPositionBottom) ? -4.0 : 4.0;
+//        [button setTitleEdgeInsets:UIEdgeInsetsMake(0, 0, topInset, 0)];
         
         if (i == _selectedSegmentIndex) {
             button.selected = YES;
